@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+    <Version>1.0.5</Version>
+    <FileVersion>1.0.5.0</FileVersion>
+    <AssemblyVersion>1.0.5.0</AssemblyVersion>
+    <AssemblyTitle>Remnant II Character Cloner</AssemblyTitle>
+    <Product>Remnant II Character Cloner</Product>
+    <Description>Portable character cloning and save backup utility for Remnant II.</Description>
+    <NoWarn>$(NoWarn);SYSLIB0050;CS8604</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\third_party\lib.remnant2.saves\lib.remnant2.saves.csproj" />
+    <EmbeddedResource Include="logo.ico" />
+  </ItemGroup>
+</Project>

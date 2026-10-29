@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.sav
+*.bak1
+*.bak2
+*.bak3
+*.onl
+CharacterClonerBackups/
+outputs/
+*.zip
